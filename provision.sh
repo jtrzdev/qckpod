@@ -142,61 +142,117 @@ CHECKPOINT_MODELS=(
 
 # --- Loras Characters ---
 LORA_CHARACTERS=(
-"https://civitai.com/api/download/models/1565120?token=$CIVITAI_TOKEN"
-"https://civitai.com/api/download/models/61541?token=$CIVITAI_TOKEN"
-"https://civitai.com/api/download/models/1559149?token=$CIVITAI_TOKEN"
-"https://civitai.com/api/download/models/1559132?token=$CIVITAI_TOKEN"
-"https://civitai.com/api/download/models/1559178?token=$CIVITAI_TOKEN"
-"https://civitai.com/api/download/models/1559358?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1565120?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/61541?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1559149?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1559132?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1559178?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1559358?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1559222?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1453689?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/221626?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1245593?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/83770?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1389554?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1389565?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1352203?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1352197?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1352192?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1352176?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1352138?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1339370?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1339366?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1339368?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1330640?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1330636?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1330633?token=$CIVITAI_TOKEN"
+    
+    "https://civitai.com/api/download/models/1607079?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1380884?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1380921?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1381003?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1405207?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1448250?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1713037?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1713050?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1713071?token=$CIVITAI_TOKEN"
+
+    
+    
+    "https://civitai.com/api/download/models/1330634?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/2095986?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/2094312?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1866302?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/2119240?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1900036?token=$CIVITAI_TOKEN"
 )
 
 # --- Loras Styles ---
 LORA_STYLES=(
-"https://civitai.com/api/download/models/998850?token=$CIVITAI_TOKEN"
-"https://civitai.com/api/download/models/1385235?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/998850?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1385235?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1388229?token=$CIVITAI_TOKEN"    
+    "https://civitai.com/api/download/models/1401771?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/136749?token=$CIVITAI_TOKEN"
 )
 
 # --- Loras Clothing ---
 LORA_CLOTHING=(
-"https://civitai.com/api/download/models/1257965?token=$CIVITAI_TOKEN"
-"https://civitai.com/api/download/models/1307299?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1257965?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1307299?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1533931?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1525419?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1533873?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1586336?token=$CIVITAI_TOKEN"
+    
+    "https://civitai.com/api/download/models/1789416?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1826319?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1830709?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1904614?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1904658?token=$CIVITAI_TOKEN"
 )
 
 # --- Loras Concept ---
 LORA_CONCEPT=(
-"https://civitai.com/api/download/models/1571734?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1571734?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1547356?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/1168401?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/140535?token=$CIVITAI_TOKEN"
 )
 
 # --- ADetailer ---
 ADETAILER_MODELS=(
-"https://civitai.com/api/download/models/465360?token=$CIVITAI_TOKEN"
+    "https://civitai.com/api/download/models/465360?token=$CIVITAI_TOKEN"
 )
 
 # --- SAM ---
 SAM_MODELS=(
-"https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth"
+    "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth"
 )
 
 # --- Diffusion Models ---
 DIFFUSION_MODELS=(
-"https://huggingface.co/YarvixPA/FLUX.1-Fill-dev-GGUF/resolve/154e0cd504b5765212c9c1c677a800d5a923c356/flux1-fill-dev-Q8_0.gguf"
+    "https://huggingface.co/YarvixPA/FLUX.1-Fill-dev-GGUF/resolve/154e0cd504b5765212c9c1c677a800d5a923c356/flux1-fill-dev-Q8_0.gguf"
 )
 
 # --- CLIP Vision ---
-CLIP_VISION_MODELS=(
-"https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors"
-)
+CLIP_VISION_MODELS=()
 
 # --- Text Encoders ---
 TEXT_ENCODER_MODELS=(
-"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
-"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
+    #flux
+    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
+    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
+    #sd
+    "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_l.safetensors"
+    "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/t5xxl_fp8_e4m3fn.safetensors"
 )
 
 # --- VAEs ---
 VAE_MODELS=(
-"https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors"
-"https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
+    #flux
+    "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors"
+    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
 )
 
 # --- ControlNet ---
