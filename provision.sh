@@ -261,6 +261,9 @@ CONTROLNET_MODELS=(
 )
 
 # --- Start Downloading Models ---
+echo "[INFO] Downloading custom nodes..."
+download_nodes
+
 echo "[INFO] Downloading Checkpoints..."
 download_models "${COMFYUI_DIR}/models/checkpoints" "${CHECKPOINT_MODELS[@]}"
 
