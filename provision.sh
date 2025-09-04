@@ -280,13 +280,13 @@ echo "[INFO] Downloading Loras Concept..."
 download_models "${COMFYUI_DIR}/models/loras/concept" "${LORA_CONCEPT[@]}"
 
 echo "[INFO] Downloading ADetailer Models..."
-download_models "${COMFYUI_DIR}/models/adetailer" "${ADETAILER_MODELS[@]}"
+download_models "${COMFYUI_DIR}/models/ultralytics/segm" "${ADETAILER_MODELS[@]}"
 
 echo "[INFO] Downloading SAM Models..."
-download_models "${COMFYUI_DIR}/models/sam" "${SAM_MODELS[@]}"
+download_models "${COMFYUI_DIR}/models/sams" "${SAM_MODELS[@]}"
 
 echo "[INFO] Downloading Diffusion Models..."
-download_models "${COMFYUI_DIR}/models/diffusion" "${DIFFUSION_MODELS[@]}"
+download_models "${COMFYUI_DIR}/models/diffusion_models" "${DIFFUSION_MODELS[@]}"
 
 echo "[INFO] Downloading CLIP Vision Models..."
 download_models "${COMFYUI_DIR}/models/clip_vision" "${CLIP_VISION_MODELS[@]}"
